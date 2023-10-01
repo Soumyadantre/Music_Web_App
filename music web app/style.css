@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;600;800;900&display=swap');
+body{
+    background-color: lavenderblush;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    background-color: #0a131e;
+    color: azure;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 80px;
+    padding: 0 0px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 85vh;
+    background-color: #0a131e;
+    color: lavenderblush;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 0 12px;
+    background-image: url('bg1.png');
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icons{
+    margin-top: 20px;
+}
+.icons i{
+    padding: 0 25px;
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 60px;
+    display: flex;
+    background-color: lavender;
+    color: #0a131e;
+    margin: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.songItem img{
+    width: 65px;
+    margin: 0 20px;
+    border-radius: 12px;
+
+}
+
+.timestamp{
+    display:flex;
+    align-items: center;
+    margin: 0 23px;
+}
+
+.timestamp i{
+    padding: 12px;
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 8vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.45s ease-in;
+}
+
+#comment-box, #post {
+    border: none;
+    margin: 0 80px;
+    width: 1500px;
+    height: 50px;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: lavender;
+}
